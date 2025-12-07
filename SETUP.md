@@ -194,7 +194,7 @@ IssuePilot/
 | Variable | Required | Default | Description |
 |----------|----------|---------|-------------|
 | GITHUB_TOKEN | ✅ | - | GitHub Personal Access Token |
-| OPENAI_API_KEY | ✅ | - | OpenAI API Key |
+| GEMINI_API_KEY | ✅ | - | Gemini API Key |
 | GITHUB_API_BASE_URL | ❌ | https://api.github.com | GitHub API endpoint |
 | OPENAI_MODEL | ❌ | gpt-4-turbo-preview | LLM model to use |
 | BACKEND_HOST | ❌ | localhost | Backend server host |
