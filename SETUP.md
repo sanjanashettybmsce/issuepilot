@@ -189,17 +189,6 @@ IssuePilot/
 - Not all issues contain stack traces
 - Common in feature requests and questions
 
-## Environment Variables Reference
-
-| Variable | Required | Default | Description |
-|----------|----------|---------|-------------|
-| GITHUB_TOKEN | ✅ | - | GitHub Personal Access Token |
-| GEMINI_API_KEY | ✅ | - | Gemini API Key |
-| GITHUB_API_BASE_URL | ❌ | https://api.github.com | GitHub API endpoint |
-| OPENAI_MODEL | ❌ | gpt-4-turbo-preview | LLM model to use |
-| BACKEND_HOST | ❌ | localhost | Backend server host |
-| BACKEND_PORT | ❌ | 8000 | Backend server port |
-
 ## Performance Considerations
 
 - **Context Enrichment:** Fetches multiple API calls, may take 30-60 seconds
